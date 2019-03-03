@@ -1,6 +1,8 @@
-package com.ferralucho;
+package deque;
 
 import java.util.ArrayDeque;
+
+import static org.junit.Assert.assertEquals;
 
 public class ParenthesesBalance {
 
@@ -16,6 +18,9 @@ public class ParenthesesBalance {
     }
 
     static boolean areBalanced(char parEx[]) {
+        if(parEx.length == 0)
+            return false;
+
         ArrayDeque<Character> charStack = new ArrayDeque();
         char aux;
         for (int i = 0; i < parEx.length; i++) {
@@ -39,4 +44,12 @@ public class ParenthesesBalance {
         }
     }
 
+
+    public static void main(String[] args) {
+        assertEquals(true, areBalanced("f(e(d))".toCharArray()));
+        assertEquals(false, areBalanced("{(b)".toCharArray()));
+        assertEquals(false, areBalanced("{c]".toCharArray()));
+        assertEquals(false, areBalanced(")(".toCharArray()));
+        assertEquals(false, areBalanced("".toCharArray()));
+    }
 }

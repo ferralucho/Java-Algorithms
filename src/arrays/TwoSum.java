@@ -5,15 +5,8 @@ package arrays;
 
 import java.util.HashMap;
 
-/**
- * @author luciano ferrari
- *
- */
 public class TwoSum {
 
-	/**
-	 * @param args
-	 */
 	public int[] twoSum(int[] nums, int targ) {
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		int complement;
