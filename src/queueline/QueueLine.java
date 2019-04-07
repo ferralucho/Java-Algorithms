@@ -13,7 +13,7 @@ import java.util.ArrayDeque;
 import java.util.LinkedList;
 
 public class QueueLine {
-    public static void main(String[] args){
+     public static void main(String[] args){
         int amount;
 
         try{
