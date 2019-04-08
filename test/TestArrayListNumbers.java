@@ -1,4 +1,4 @@
-import arraylistnumbers.Classifier;
+import arrays.arraylistnumbers.Classifier;
 import org.junit.Test;
 
 import java.util.ArrayList;
