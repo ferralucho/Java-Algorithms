@@ -2,9 +2,6 @@ package trees;
 
 import java.util.Scanner;
 
-import java.util.*;
-import java.io.*;
-
     class Node {
         Node left, right;
         int data;
@@ -15,7 +12,6 @@ import java.io.*;
     }
 
     class BinarySearchTree {
-        /* We define a 1-Node tree to have height of 0 */
         public static int getHeight(Node root) {
             if (root == null) {
                 return -1;
