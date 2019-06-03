@@ -40,14 +40,12 @@ public class MedianMatrix {
         for (int i = 0; i < filasCol; i++) {
             double mediana;
             if (tamanio % 2 == 0) {
-                mediana = (matrix[i][filasCol / 2 - 1] + matrix[i][filasCol / 2]) / 2.0;
+                mediana = Math.floor((matrix[i][filasCol / 2 - 1] + matrix[i][filasCol / 2]) / 2.0);
             } else {
                 mediana = matrix[i][filasCol / 2];
             }
-            System.out.println(mediana);
+            System.out.println((int) mediana);
         }
-
-
 
     }
 }
