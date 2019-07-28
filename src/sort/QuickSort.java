@@ -15,6 +15,14 @@ Los elementos iguales que el pivote (duplicados) van a una u otra partición, pe
 
 En el peor caso, cuando el pivote es el elemento menor del array el tiempo de ejecución del método Quicksort es O(n2).
 En general el tiempo medio de ejecución del Quicksort es O(n log n).
+
+El proceso de selección consiste en, dado un vector de N elementos, encontrar el k-ésimo menor elemento.
+Se puede resolver el problema de selección en tiempo lineal, en promedio.
+
+El peor caso en la selección rápida se presenta cuando la llamada recursiva se realiza con un solo elemento menos.
+
+La mediana de un grupo de N elementos es el [N/2]-ésimo menor elemento.
+
  */
 
 public class QuickSort {

@@ -5,6 +5,10 @@ Consideraciones de Shellsort  Uno de los intervalos debe ser 1. En general es
 ordenación por inserción.
 - Lo expuesto anteriormente garantiza que el vector se ordene correctamente.
 - Shell sugirió empezar con un intervalo N/2, luego dividir por la mitad hasta llegar a 1. Ejemplo: N=12, inrecrementos 5,3,1.
+Su objetivo es evitar gran cantidad de movimientos de datos.
+Su tiempo de ejecución depende en gran medida de la secuencia de incrementos elegida.
+
+
  */
 
     public class ShellSort {

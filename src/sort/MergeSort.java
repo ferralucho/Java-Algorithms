@@ -27,6 +27,10 @@ la segunda parte del array, desde m+1 hasta der, se mezclan mediante llamadas re
 mergesort.
 La recursión termina cuando izq == der, es decir, cuando un subarray contiene solamente un elemento.
 La operación principal de mezcla la realiza el método merge.
+
+QuickSort y MergeSort requieren un trabajo adicional (mezcla y partición).
+Quicksort y MergeSort utilizan ambos recursión.
+El tiempo necesario para la mezcla lineal es de O(N) y QuickSort es de 0(N log N).
  */
 
 public class MergeSort {
