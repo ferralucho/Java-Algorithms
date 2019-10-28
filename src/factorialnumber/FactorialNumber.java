@@ -23,4 +23,24 @@ public class FactorialNumber {
         return result;
     }
 
+    public int getFactorialWhile(int n){
+        int result = 1;
+        if(n > 0){
+            result = n;
+            while (n > 1){
+                n = n - 1;
+                result = result * n;
+            }
+        }
+        return result;
+    }
+
+    public int getRecursiveFactorial(int n){
+        if(n == 0){
+            return 1;
+        }
+        else{
+            return n * getRecursiveFactorial(n - 1);
+        }
+    }
 }
