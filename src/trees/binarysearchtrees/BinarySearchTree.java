@@ -1,4 +1,4 @@
-package trees;
+package trees.binarysearchtrees;
 
 import java.util.Scanner;
 
