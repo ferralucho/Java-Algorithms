@@ -28,6 +28,9 @@ public class Main {
 
 		intTree.delete(30);
 		intTree.traverseInOrder();
+
+		intTree.traversePreOrder();
+		System.out.println();
 		System.out.println();
 
 	}
